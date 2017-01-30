@@ -63,7 +63,9 @@ results
 build
 .grunt
 
+
 node_modules
+app/public/site/js/lib/*
 .idea/
 *.iml
 
