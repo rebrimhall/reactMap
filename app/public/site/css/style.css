@@ -1,0 +1,73 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.full-height{
+  height: 100%;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.wrapper{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -250px;
+}
+
+#mainContent{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -250px;
+}
+
+.content-container{
+  position: absolute;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+}
+
+.content-container{
+  min-height: 582px;
+}
+
+.esriSimpleSlider {
+    border: 1px solid #ccc;
+    top: 85px !important;
+    right: 10px !important;
+    left: auto !important;
+}
+
+/* Basemap toggle */
+#basemapContainer {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  top: 78px;
+  right: 53px;
+  z-index: 1;
+}
+
+#basemap{
+  width: 75px;
+  top: -20px;
+  outline: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: #4c4c4c;
+  color: #eee;
+}
