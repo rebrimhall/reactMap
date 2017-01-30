@@ -65,7 +65,7 @@ build
 
 
 node_modules
-app/public/site/js/lib/*
+app/public/lib/*
 .idea/
 *.iml
 
